@@ -1,0 +1,39 @@
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #6B728E;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card .poster-movie {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-body > h2  {
+    margin-top: 0;
+    font-size: medium;
+    color: #FAFAFA;
+}
+
+.card-body > p {
+    margin-top: 10px;
+    color: #DFDFDE;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+}
